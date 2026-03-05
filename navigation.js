@@ -10,6 +10,7 @@
     // Add pages here as screenshots get recreated.
     const pages = [
         { id: 'accueil', label: 'Accueil' },
+        { id: 'quia-quiz', label: 'Quia Quiz' },
     ];
 
     // ── DOM refs ──
