@@ -3,7 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - claude/screenshot-recreation-site-CO1di
       - main
 
 permissions:
