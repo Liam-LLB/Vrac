@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Recreation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Page container - each page is a section -->
+    <div id="page-container">
+        <section class="page active" data-page="accueil">
+            <div class="placeholder">
+                <h1>Bienvenue</h1>
+                <p>Envoie-moi des screenshots et je les recréerai ici.</p>
+                <p class="hint">Raccourci : <kbd>&larr;</kbd> <kbd>&uarr;</kbd> <kbd>&rarr;</kbd> pour naviguer</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Navigation dropdown overlay -->
+    <div id="nav-overlay" class="hidden">
+        <div id="nav-dropdown">
+            <div class="nav-header">Navigation</div>
+            <ul id="nav-list">
+                <!-- Pages will be injected here by JS -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="navigation.js"></script>
+</body>
+</html>
