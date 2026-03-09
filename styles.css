@@ -175,7 +175,7 @@ kbd {
 }
 
 .quia-topbar {
-    background: #c5690d;
+    background: #003366;
     display: flex;
     align-items: center;
     padding: 0 6px;
@@ -195,7 +195,7 @@ kbd {
 
 .quia-topbar-line {
     height: 2px;
-    background: #993d08;
+    background: #002244;
 }
 
 .quia-nav {
