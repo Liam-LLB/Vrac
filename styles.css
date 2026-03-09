@@ -169,31 +169,47 @@ kbd {
 .quia-page {
     background: #fff;
     min-height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
     color: #000;
 }
 
 .quia-topbar {
-    background: linear-gradient(to bottom, #d4882a, #c47a1f);
+    background: #c26a0a;
     display: flex;
     align-items: center;
-    padding: 0 12px;
+    padding: 0 8px;
+    height: 44px;
+    gap: 16px;
+}
+
+.quia-logo {
+    flex-shrink: 0;
+}
+
+.quia-logo-svg {
+    width: 70px;
     height: 40px;
-    gap: 24px;
+    display: block;
+}
+
+.quia-topbar-line {
+    height: 3px;
+    background: #a0450a;
 }
 
 .quia-nav {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
 }
 
 .quia-nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .quia-nav a:hover {
@@ -202,63 +218,65 @@ kbd {
 
 .quia-subscribe {
     border: 1px solid #fff;
-    padding: 2px 8px;
-    font-size: 13px;
+    padding: 3px 10px;
+    font-size: 12px;
+    margin-left: 40px;
 }
 
 /* Quia content */
 .quia-content {
-    padding: 16px 20px;
+    padding: 12px 10px;
 }
 
 .quia-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .quia-desc {
-    font-size: 14px;
-    margin-bottom: 14px;
+    font-size: 12px;
+    margin-bottom: 12px;
 }
 
 .quia-timed {
     display: inline-block;
-    border: 1px solid #000;
+    border: 1px solid #cc0000;
     padding: 2px 6px;
     font-weight: bold;
-    font-size: 13px;
-    margin-bottom: 16px;
+    font-size: 12px;
+    margin-bottom: 18px;
 }
 
 .quia-login-required {
-    color: #c44;
+    color: #cc3333;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 2px;
 }
 
 .quia-login-hint {
-    color: #c44;
-    font-size: 13px;
-    margin-bottom: 12px;
+    color: #cc3333;
+    font-size: 12px;
+    margin-bottom: 14px;
 }
 
 .quia-login-box {
-    background: #d4dff0;
-    border: 1px solid #bbb;
-    width: 300px;
+    background: #c8d8eb;
+    border: 1px solid #aaa;
+    width: 280px;
     padding: 0;
 }
 
 .quia-login-header {
     font-weight: bold;
-    font-size: 14px;
-    padding: 8px 12px 6px;
+    font-size: 12px;
+    padding: 10px 14px 8px;
 }
 
 .quia-login-form {
-    padding: 8px 12px 16px;
+    padding: 4px 14px 24px;
 }
 
 .quia-field {
@@ -270,27 +288,29 @@ kbd {
 
 .quia-field label {
     font-weight: bold;
-    font-size: 13px;
-    min-width: 75px;
+    font-size: 12px;
+    min-width: 70px;
     text-align: right;
 }
 
 .quia-field input {
-    font-size: 13px;
-    padding: 2px 4px;
-    border: 1px solid #999;
-    width: 150px;
+    font-size: 12px;
+    padding: 1px 3px;
+    border: 1px solid #7f9db9;
+    width: 140px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .quia-submit-row {
-    margin-top: 16px;
-    padding-left: 83px;
+    margin-top: 20px;
+    padding-left: 78px;
 }
 
 .quia-start-btn {
-    font-size: 13px;
-    padding: 2px 10px;
+    font-size: 12px;
+    padding: 1px 8px;
     cursor: default;
-    background: #e8e8e8;
+    background: #f0f0f0;
     border: 1px solid #888;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
