@@ -175,12 +175,12 @@ kbd {
 }
 
 .quia-topbar {
-    background: #c26a0a;
+    background: #c5690d;
     display: flex;
     align-items: center;
-    padding: 0 8px;
-    height: 44px;
-    gap: 16px;
+    padding: 0 6px;
+    height: 46px;
+    gap: 12px;
 }
 
 .quia-logo {
@@ -188,14 +188,14 @@ kbd {
 }
 
 .quia-logo-svg {
-    width: 70px;
-    height: 40px;
+    width: 80px;
+    height: 44px;
     display: block;
 }
 
 .quia-topbar-line {
-    height: 3px;
-    background: #a0450a;
+    height: 2px;
+    background: #993d08;
 }
 
 .quia-nav {
@@ -218,9 +218,9 @@ kbd {
 
 .quia-subscribe {
     border: 1px solid #fff;
-    padding: 3px 10px;
+    padding: 2px 8px;
     font-size: 12px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 /* Quia content */
